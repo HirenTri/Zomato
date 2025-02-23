@@ -9,7 +9,7 @@ export const StoreContext=createContext(null);
 
 const StoreContextProvider=(props)=>{
 
-    const url="http://localhost:4000";
+    const url="https://zomato-pztl.onrender.com";
     const [token,seToken]=useState("")
     const[food_list,setfoodlist]=useState([]);
     //id is provide for distinguish different food items
