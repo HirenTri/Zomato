@@ -38,10 +38,6 @@ A **full-stack** Zomato-inspired web application that enables users to explore r
 
  🚀 Installation & Setup  
 
- 1️⃣ Clone the Repository**  
- 
-git clone https://github.com/your-username/zomato-clone.git
-cd zomato-clone
  
 
  2️⃣ Install Dependencies**  
