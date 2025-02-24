@@ -2,7 +2,8 @@ import React, { } from 'react'
 import './Fooditems.css'
 import { assets } from '../../assets/assets'
 import { useContext } from 'react';
-import { StoreContext } from '../Context/StoreContext.jsx/StoreContext';
+import { StoreContext } from "../../components/Context/StoreContext";
+
 const Fooditems = ({id,name,price,description,image}) => {
 
     // const[itemcount,setitemcount]=useState(0);

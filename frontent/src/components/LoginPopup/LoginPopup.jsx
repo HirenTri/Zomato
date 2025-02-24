@@ -1,7 +1,8 @@
 import React, { useContext, useEffect, useState } from 'react'
 import './LoginPopup.css'
 import { assets } from '../../assets/assets'
-import { StoreContext } from '../Context/StoreContext.jsx/StoreContext'
+import { StoreContext } from "../../components/Context/StoreContext";
+
 import axios from "axios"
 const LoginPopup = ({setshowlogin}) => {
   const[currstate,setcurrstate]=useState("Sign Up")

@@ -2,7 +2,8 @@ import React, { useContext, useState } from 'react'
 import  './Navbar.css'
 import {Link, useNavigate} from 'react-router-dom'
 import {assets} from '../../assets/assets'
-import { StoreContext } from '../Context/StoreContext.jsx/StoreContext'
+import { StoreContext } from "../../components/Context/StoreContext";
+
 const Navbar = ({setshowlogin}) => {
      
     //state varaible

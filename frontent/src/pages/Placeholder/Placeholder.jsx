@@ -1,6 +1,7 @@
 import React, { useContext, useEffect ,useState} from 'react'
 import './Placeholder.css'
-import { StoreContext } from '../../components/Context/StoreContext.jsx/StoreContext'
+import { StoreContext } from "../../components/Context/StoreContext";
+
 import axios from "axios"
 import { useNavigate } from 'react-router-dom'
 const Placeholder = () => {

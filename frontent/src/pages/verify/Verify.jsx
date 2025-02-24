@@ -1,11 +1,13 @@
  import React, { useContext ,useEffect} from 'react'
  import './verify.css'
 import { useNavigate, useSearchParams } from 'react-router-dom'
-import { StoreContext } from '../../components/Context/StoreContext.jsx/StoreContext';
+import { StoreContext } from "../../components/Context/StoreContext";
+
+
 import axios from "axios"
  const  Verify = () => {
 
-    const [searchparam,setsearchparam]=useSearchParams();
+    const [searchparam]=useSearchParams();
     //extract items from website link
     const success=searchparam.get("success")
     const orderId=searchparam.get("orderId")
@@ -23,7 +25,7 @@ import axios from "axios"
 
     useEffect(()=>{
         verifyPayment();
-    },[])
+    },[verifyPayment])
     console.log({success,orderId})
    return (
      <div>

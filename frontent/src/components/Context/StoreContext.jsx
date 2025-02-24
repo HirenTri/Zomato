@@ -1,7 +1,6 @@
 
 // Context api is used for providing data globally
 // to any component in react with help of context Provider
-
 import { createContext, useEffect, useState } from "react";
  import axios from "axios";
 // Provider tells the all compnents that this global context is present
