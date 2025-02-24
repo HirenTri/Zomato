@@ -35,33 +35,6 @@ A **full-stack** Zomato-inspired web application that enables users to explore r
 
  
 
-📂 Project Structure  
- 
-Zomato-Clone
-│── frontend/   # React (Vite) frontend
-│   ├── src/
-│   │   ├── components/    # UI Components
-│   │   ├── pages/         # Pages (Home, Menu, Login, etc.)
-│   │   ├── assets/        # Images, icons
-│   │   ├── App.js         
-│   │   └── index.js       
-│   ├── public/            # Static assets
-│   ├── package.json       # Frontend dependencies
-│   └── vite.config.js     
-│
-│── backend/    # Express backend
-│   ├── models/           # Database models
-│   ├── routes/           # API Routes (auth, restaurants, orders)
-│   ├── controllers/      # Business logic
-│   ├── config/           # Database & env configs
-│   ├── server.js         # Main server file
-│   ├── middleware/       # Authentication & validation middleware
-│   ├── package.json      # Backend dependencies
-│   └── .env.example      # Environment variables sample
-│
-└── README.md
-
-
 
  🚀 Installation & Setup  
 
