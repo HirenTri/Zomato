@@ -7,7 +7,7 @@ console.log("Stripe Secret Key:", process.env.STRIPE_SECRET_KEY); // Debugging s
 
 
 const placeorder = async (req, res) => {
-    const frontend_url = "https://zomato-frontent-mmjb.onrender.com/";
+    const frontend_url = "https://zomato-frontent-mmjb.onrender.com";
 
     try {
         console.log("Creating new order...");
